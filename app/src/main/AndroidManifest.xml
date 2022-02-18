@@ -12,18 +12,22 @@
         <activity
             android:name=".ShoppingActivity"
             android:label="Shopping"
+            android:parentActivityName="com.example.tourguide.MainActivity"
             android:exported="false" />
         <activity
             android:name=".AttractionActivity"
             android:label="Attraction"
+            android:parentActivityName="com.example.tourguide.MainActivity"
             android:exported="false" />
         <activity
             android:name=".FoodActivity"
             android:label="Food"
+            android:parentActivityName="com.example.tourguide.MainActivity"
             android:exported="false" />
         <activity
             android:name=".AccommodationActivity"
             android:label="Accommodation"
+            android:parentActivityName="com.example.tourguide.MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
