@@ -9,11 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class StreatFoodFragment extends Fragment {
+public class ReligiousPlacesFragment extends Fragment {
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_streat_food, container, false);
+        return inflater.inflate(R.layout.fragment_religious_places, container, false);
     }
 }
