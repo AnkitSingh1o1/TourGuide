@@ -18,11 +18,11 @@ public class AccommodationActivity extends AppCompatActivity {
         ArrayList<Block> block = new ArrayList<>();
         //Word w = new Word("one","tutti");
         //words.add(w);     OR we can write
-        block.add(new Block(R.drawable.picture1,"Jehan Numa Palace","4.9/5"));
-        block.add(new Block(R.drawable.picture4,"Courtyard by Marriott","4.5/5"));
-        block.add(new Block(R.drawable.picture2,"Sayaji Hotel","4.2/5"));
-        block.add(new Block(R.drawable.picture3,"Taj Lake Front Hotel","4.0/5"));
-        block.add(new Block(R.drawable.picture5,"Blue Lagoon Farm","3.8/5"));
+        block.add(new Block("#1",R.drawable.picture1,"Jehan Numa Palace","4.9/5"));
+        block.add(new Block("#2",R.drawable.picture4,"Courtyard by Marriott","4.5/5"));
+        block.add(new Block("#3",R.drawable.picture2,"Sayaji Hotel","4.2/5"));
+        block.add(new Block("#4",R.drawable.picture3,"Taj Lake Front Hotel","4.0/5"));
+        block.add(new Block("#5",R.drawable.picture5,"Blue Lagoon Farm","3.8/5"));
 
         BlockAdapter adapter = new BlockAdapter(this, block);
 

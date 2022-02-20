@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class BlockAdapter extends ArrayAdapter<Block> {
@@ -29,6 +31,11 @@ public class BlockAdapter extends ArrayAdapter<Block> {
 
 
         Block currBlock = getItem(position);
+
+        //set Hotel Rank Text View
+        TextView hotelRankTextView = (TextView) listItemView.findViewById(R.id.hotel_rank);
+        hotelRankTextView.setText(currBlock.getmHotelRank());
+
 
         //Set Image View of Hotel
         ImageView hotelImageView = (ImageView) listItemView.findViewById(R.id.image_view);
