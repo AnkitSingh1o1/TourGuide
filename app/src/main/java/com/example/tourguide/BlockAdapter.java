@@ -1,19 +1,21 @@
 package com.example.tourguide;
 
 import android.app.Activity;
-import android.media.Image;
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class BlockAdapter extends ArrayAdapter<Block> {
     public BlockAdapter(Activity context, ArrayList<Block> block) {
@@ -48,6 +50,21 @@ public class BlockAdapter extends ArrayAdapter<Block> {
         //Set Hotel rating text view
         TextView hotelRatingTextView = (TextView) listItemView.findViewById(R.id.hotel_rating);
         hotelRatingTextView.setText(currBlock.getmHotelRating());
+
+        //set action of floating action button;
+        Button btn = (Button)listItemView.findViewById(R.id.map_button);
+        btn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Context context = v.getContext();
+                String uri = String.format(Locale.ENGLISH, "geo:%f,%f", currBlock.getMlatitude(), currBlock.getMlongitude());
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                context.startActivity(intent);
+            }
+        });
+
 
 
         return listItemView;

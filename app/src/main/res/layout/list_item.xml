@@ -72,16 +72,12 @@
             android:gravity="center|clip_vertical|center_horizontal|center_vertical"
             android:orientation="vertical">
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton2"
-                android:layout_width="45dp"
-                android:layout_height="43dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginRight="4dp"
-                android:clickable="true"
-                android:contentDescription="@string/app_name"
-                tools:srcCompat="@tools:sample/avatars" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/map_button"
+                app:cornerRadius="30dp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Map" />
 
             <TextView
                 android:id="@+id/hotel_rating"
