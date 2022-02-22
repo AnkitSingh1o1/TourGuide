@@ -36,7 +36,25 @@ public class BlockAdapter extends ArrayAdapter<Block> {
 
         //set Hotel Rank Text View
         TextView hotelRankTextView = (TextView) listItemView.findViewById(R.id.hotel_rank);
-        hotelRankTextView.setText(currBlock.getmHotelRank());
+        if(currBlock.hasMHotelImageId()) {
+            hotelRankTextView.setText(currBlock.getmHotelRank());
+
+            hotelRankTextView.setVisibility(View.VISIBLE);
+        }
+        else{
+            hotelRankTextView.setVisibility(View.GONE);
+        }
+
+        //Set Hotel rating text view
+        TextView hotelRatingTextView = (TextView) listItemView.findViewById(R.id.hotel_rating);
+        if(currBlock.hasMHotelImageId()) {
+            hotelRatingTextView.setText(currBlock.getmHotelRating());
+
+            hotelRatingTextView.setVisibility(View.VISIBLE);
+        }
+        else{
+            hotelRankTextView.setVisibility(View.GONE);
+        }
 
 
         //Set Image View of Hotel
@@ -47,9 +65,6 @@ public class BlockAdapter extends ArrayAdapter<Block> {
         TextView hotelNameTextView = (TextView) listItemView.findViewById(R.id.hotel_name);
         hotelNameTextView.setText(currBlock.getmHotelName());
 
-        //Set Hotel rating text view
-        TextView hotelRatingTextView = (TextView) listItemView.findViewById(R.id.hotel_rating);
-        hotelRatingTextView.setText(currBlock.getmHotelRating());
 
         //set action of floating action button;
         Button btn = (Button)listItemView.findViewById(R.id.map_button);
