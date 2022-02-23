@@ -5,14 +5,16 @@
       <map>
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_accommodation.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_attraction.xml" value="0.2" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_food.xml" value="0.209375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_food.xml" value="0.22" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/activity_shopping.xml" value="0.209375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_blank.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_fort.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_lakes.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_religious_places.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_restaurant_food.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_streat_food.xml" value="0.33" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/fragment_street_food.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/TourGuide/app/src/main/res/layout/list_item.xml" value="0.22" />
       </map>
     </option>

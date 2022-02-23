@@ -23,11 +23,11 @@ public class AttractionActivity extends AppCompatActivity {
 
         tabLayout2.setupWithViewPager(viewPager2);
 
-        VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addFragment(new LakesFragment(), "Lakes");
-        vpAdapter.addFragment(new ReligiousPlacesFragment(), "Religious Places");
-        vpAdapter.addFragment(new FortFragment(), "Fort");
+//        VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+//        vpAdapter.addFragment(new LakesFragment(), "Lakes");
+//        vpAdapter.addFragment(new ReligiousPlacesFragment(), "Religious Places");
+//        vpAdapter.addFragment(new FortFragment(), "Fort");
 
-        viewPager2.setAdapter(vpAdapter);
+       // viewPager2.setAdapter(vpAdapter);
     }
 }

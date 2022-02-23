@@ -4,13 +4,13 @@ public class Block {
 
     private final String mHotelName;
     private String mHotelRating = "";
-    private int mHotelImageId = NOT_SET;
-    private String mHotelRank = "";
+    private int mHotelImageId ;
+    private String mHotelRank = NOT_SET;
     private float mlatitude;
     private float mlongitude;
 
     //For arrayAdapter
-    public static final int NOT_SET = -1;
+    public static final String NOT_SET = "-1";
 
     //Shopping Constructor
     public Block(int marketImageId, String marketName, float marketLat, float marketLon){
@@ -55,8 +55,8 @@ public class Block {
 
 
     //Function for BlockAdapter
-    public boolean hasMHotelImageId(){
-        return mHotelImageId != NOT_SET;
+    public boolean hasMHotelRank(){
+        return mHotelRank != NOT_SET;
     }
 
 }

@@ -36,7 +36,7 @@ public class BlockAdapter extends ArrayAdapter<Block> {
 
         //set Hotel Rank Text View
         TextView hotelRankTextView = (TextView) listItemView.findViewById(R.id.hotel_rank);
-        if(currBlock.hasMHotelImageId()) {
+        if(currBlock.hasMHotelRank()) {
             hotelRankTextView.setText(currBlock.getmHotelRank());
 
             hotelRankTextView.setVisibility(View.VISIBLE);
@@ -47,13 +47,13 @@ public class BlockAdapter extends ArrayAdapter<Block> {
 
         //Set Hotel rating text view
         TextView hotelRatingTextView = (TextView) listItemView.findViewById(R.id.hotel_rating);
-        if(currBlock.hasMHotelImageId()) {
+        if(currBlock.hasMHotelRank()) {
             hotelRatingTextView.setText(currBlock.getmHotelRating());
 
             hotelRatingTextView.setVisibility(View.VISIBLE);
         }
         else{
-            hotelRankTextView.setVisibility(View.GONE);
+            hotelRatingTextView.setVisibility(View.GONE);
         }
 
 
