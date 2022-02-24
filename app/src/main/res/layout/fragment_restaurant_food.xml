@@ -4,8 +4,9 @@
     android:id="@+id/restaurantfoodlist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#FFFFFF"
     android:drawSelectorOnTop="true"
+    android:orientation="vertical"
     tools:context=".RestaurantFoodFragment">
 
 </ListView>

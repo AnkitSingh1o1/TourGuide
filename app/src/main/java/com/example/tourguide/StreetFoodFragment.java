@@ -30,7 +30,7 @@ public class StreetFoodFragment extends Fragment {
 
         block.add(new Block(R.drawable.streetfood1, "Jamaal Tea Shop", 23.25871f, 77.40563f));
         block.add(new Block(R.drawable.streetfood2, "Chatori Gali", 23.25538f, 77.40299f));
-        block.add(new Block(R.drawable.streetfood3, "Kalyan's Swaad Bhandaar", 23.25881f, 77.40272f));
+        block.add(new Block(R.drawable.streetfood3, "Kalyan's Bhandaar", 23.25881f, 77.40272f));
         block.add(new Block(R.drawable.streetfood4, "Raju Tea Stall", 23.25863f, 77.40269f));
         block.add(new Block(R.drawable.streetfood5, "Kebabs at Jameel", 23.25635f, 77.40192f));
 
